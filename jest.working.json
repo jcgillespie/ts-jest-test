@@ -9,6 +9,7 @@
         "js"
     ],
     "testResultsProcessor": "<rootDir>/node_modules/ts-jest/coverageprocessor.js",
+    "coverageDirectory": "coverage",
     "collectCoverageFrom": [
         "src/**/*.ts",
         "!src/**/*.spec.ts",
