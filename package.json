@@ -6,8 +6,8 @@
   "author": "Josh Gillespie",
   "license": "ISC",
   "scripts": {
-    "build": "tsc -p .",
-    "test": "jest --coverage --no-cache --config ./jest.working.json"
+    "build": "tsc -p tsconfig.json --pretty",
+    "test": "jest --coverage --no-cache --config ./jest.json"
   },
   "dependencies": {
     "jest": "^19.0.2",

@@ -1,4 +1,5 @@
 # Dependencies
 node_modules/
 .vscode
+!.vscode/tasks.json
 coverage/
