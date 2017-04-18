@@ -1,0 +1,31 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "command": "yarn",
+    "isShellCommand": true,
+    "suppressTaskName": true,
+    "tasks": [
+        {
+            "taskName": "build",
+            "showOutput": "silent",
+            "args": [
+                "run",
+                "build"
+            ],
+            "isBuildCommand": true
+        },
+        {
+            "taskName": "test",
+            "showOutput": "always",
+            "args": [
+                "run",
+                "test",
+                "--",
+                "--runInBand"
+            ],
+            "isTestCommand": true,
+            "suppressTaskName": true
+        }
+    ]
+}
