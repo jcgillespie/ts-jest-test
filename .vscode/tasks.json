@@ -8,24 +8,12 @@
     "tasks": [
         {
             "taskName": "build",
-            "showOutput": "silent",
+            "showOutput": "never",
             "args": [
                 "run",
                 "build"
             ],
             "isBuildCommand": true
-        },
-        {
-            "taskName": "test",
-            "showOutput": "always",
-            "args": [
-                "run",
-                "test",
-                "--",
-                "--runInBand"
-            ],
-            "isTestCommand": true,
-            "suppressTaskName": true
         }
     ]
 }
