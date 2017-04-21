@@ -1,4 +1,6 @@
 # ts-jest-test
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/jcgillespie/ts-jest-test.svg)](https://greenkeeper.io/)
 Test case for debugging Jest tests written in Typescript. [Issue](https://github.com/kulshekhar/ts-jest/issues/170)
 
 Steps to reproduce
