@@ -1,5 +1,5 @@
 # ts-jest-test
-Test case for debugging Jest tests written in Typescript 
+Test case for debugging Jest tests written in Typescript. [Issue](https://github.com/kulshekhar/ts-jest/issues/170)
 
 Steps to reproduce
 1. `yarn` or `npm install` to install dependencies
