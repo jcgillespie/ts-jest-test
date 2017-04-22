@@ -17,7 +17,7 @@
             ],
             "sourceMaps": true,
             "outFiles": [
-                "/build/**/*"
+                "${workspaceRoot}/build/**/*"
             ]
         }
     ]
