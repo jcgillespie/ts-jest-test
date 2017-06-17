@@ -6,15 +6,17 @@
   "author": "Josh Gillespie",
   "license": "ISC",
   "scripts": {
-    "build": "tsc -p tsconfig.json --pretty",
-    "test": "jest --coverage --no-cache --config ./jest.json"
+    "build": "tsc -p ./root-tsconfig.json --pretty",
+    "pretest": "yarn run build",
+    "test:nest": "jest --coverage --no-cache --config ./config/jest.json",
+    "test": "jest --coverage --no-cache --config ./root-jest.json"
   },
   "dependencies": {
-    "jest": "^19.0.2",
-    "ts-jest": "^19.0.10",
-    "typescript": "^2.2.2"
+    "jest": "^20.0.4",
+    "ts-jest": "^20.0.6",
+    "typescript": "^2.3.4"
   },
   "devDependencies": {
-    "@types/jest": "^19.2.2"
+    "@types/jest": "^20.0.0"
   }
 }
